@@ -4,7 +4,7 @@
 
 **Problem**: `pysam` requires compilation and C libraries, which can fail on Windows.
 
-**Solution**: `pysam` and `pyfaidx` are **optional** dependencies. They're only needed if you want to fetch sequences from a reference genome FASTA file.
+**Solution**: `pysam` and `pyfaidx` are **optional** dependencies. They're only needed if needed to fetch sequences from a reference genome FASTA file.
 
 ### Quick Fix
 
@@ -14,7 +14,7 @@ The updated `requirements.txt` no longer includes `pysam` and `pyfaidx`. Install
 pip install -r requirements.txt
 ```
 
-### If You Need Reference Genome Support
+### If Reference Genome Support Needed
 
 If you want to use a reference genome FASTA file, install these separately:
 
@@ -39,7 +39,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ```
 
 ### Issue: Out of memory during model download
-**Solution**: The model is ~2GB. Ensure you have:
+**Solution**: The model is ~2GB. Ensure:
 - At least 4GB free disk space
 - Stable internet connection
 - Model downloads automatically on first use
