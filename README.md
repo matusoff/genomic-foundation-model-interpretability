@@ -217,9 +217,9 @@ See [INSTALL_TROUBLESHOOTING.md](INSTALL_TROUBLESHOOTING.md) for more.
 
 ## Citation
 
-If you use this code, please cite:
+If use this code, please cite:
 
-- **Nucleotide Transformer v2:** Dalla-Torre et al., "The Nucleotide Transformer: Building and Evaluating Robust Foundation Models for Human Genomics" (2023)
+- **Repository:** https://github.com/<matusoff>
 - **Genomic-FM Dataset:** Wang et al., "Genomic-FM: A Foundation Model for DNA Sequences" (NeurIPS 2024)
 - **Repository:** https://github.com/<your-username>/<repository-name>
 
