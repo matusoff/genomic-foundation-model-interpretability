@@ -1,6 +1,5 @@
 """
 Generate PDF report from analysis results.
-Creates a 2-4 page report with all required sections.
 """
 
 import pandas as pd
