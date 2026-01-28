@@ -1,6 +1,6 @@
 """
 Download only the chromosomes needed for analysis (much smaller than full genome).
-Downloads individual chromosome files from UCSC (~50-200MB each instead of 3-9GB total).
+Downloads individual chromosome files from UCSC (~50-200MB each).
 """
 
 import requests
