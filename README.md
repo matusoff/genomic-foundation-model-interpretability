@@ -227,10 +227,6 @@ If use this code, please cite:
 
 [Specify your license]
 
-## Contact
-
-For questions: vallijah.subasri@uhn.ca
-
 ## Acknowledgments
 
 - Model: InstaDeepAI Nucleotide Transformer v2
