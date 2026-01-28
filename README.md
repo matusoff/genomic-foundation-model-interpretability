@@ -18,7 +18,7 @@ This project applies interpretability techniques to genomic foundation models to
 
 ```bash
 # Clone repository
-git clone https://github.com/omatu/genomic-foundation-model-interpretability.git
+git clone https://github.com/matusoff/genomic-foundation-model-interpretability.git
 cd genomic-foundation-model-interpretability
 
 # Create conda environment (recommended)
