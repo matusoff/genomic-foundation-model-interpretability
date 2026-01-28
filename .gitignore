@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Models (too large for GitHub)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Results (users generate their own)
+results/figures/previous_analyses/
+results/figures/*_*.png  # Timestamped files (keep aggregated)
+!results/figures/*_aggregated.png
+!results/figures/ablation_analysis.png
+!results/figures/circuit_analysis.png
+
+# Data (users download their own)
+data/genomic-FM/
+data/sequences/
+*.fa
+*.fasta
+*.vcf
+*.vcf.gz
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+tmp*/
+temp/
+
+# PDF reports (users generate their own)
+*.pdf
+!report/report.pdf  # Keep template if exists
+
+# Environment variables
+.env
+.env.local
