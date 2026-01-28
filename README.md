@@ -219,9 +219,9 @@ See [INSTALL_TROUBLESHOOTING.md](INSTALL_TROUBLESHOOTING.md) for more.
 
 If use this code, please cite:
 
-- **Repository:** https://github.com/<matusoff>
+- **Repository:**  https://github.com/matusoff/genomic-foundation-model-interpretability
 - **Genomic-FM Dataset:** Wang et al., "Genomic-FM: A Foundation Model for DNA Sequences" (NeurIPS 2024)
-- **Repository:** https://github.com/<your-username>/<repository-name>
+- **Repository:** (https://github.com/bowang-lab/genomic-FM
 
 ## License
 
