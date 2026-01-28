@@ -27,7 +27,7 @@ Sequence: ...ATCGATCGATCGATCG...
 - **Bottom plot:** Difference between ref and alt impacts
 - **Higher impact** = that position is more critical for the model
 
-**In your results:**
+**In results:**
 - **40 positions tested** (200 nt window ÷ 5 step size)
 - Each test ablates **5 consecutive nucleotides**
 - Shows which regions around the variant matter most
@@ -39,8 +39,8 @@ Sequence: ...ATCGATCGATCGATCG...
 **What it does:** Tests which **internal model components** (attention heads in specific layers) are most important.
 
 **How it works:**
-1. **Baseline:** Run model normally → get final hidden states
-2. **Ablate:** Zero out a specific attention head's output → run model again
+1. **Baseline:** Run model normally - get final hidden states
+2. **Ablate:** Zero out a specific attention head's output - run model again
 3. **Compare:** Measure how much final output changed
 
 **Details:**
@@ -98,7 +98,7 @@ Position 250 (variant):
   → Model notices the variant in alt sequence
 ```
 
-**In your results:**
+**In results:**
 - Multiple heatmaps (one per layer-head combination shown)
 - Shows if model's "focus" changes between ref and alt sequences
 
@@ -114,30 +114,4 @@ Position 250 (variant):
 
 ---
 
-## Biological Interpretation
-
-**Position Ablation:**
-- If ablating near variant has high impact → variant region is functionally important
-- If ablating far away has impact → long-range dependencies exist
-
-**Circuit Analysis:**
-- Different layers capture different features (early=local, late=global)
-- Critical circuits = model components that detect variant effects
-
-**Attention Analysis:**
-- High attention to variant position → model recognizes the change
-- Attention patterns → model's "reading" of the sequence
-
----
-
-## For Your Report
-
-**Position Ablation:**
-- "We systematically masked 5-nucleotide windows at 40 positions around each variant (±100 nt, step size 5) and measured the impact on model predictions."
-
-**Circuit Analysis:**
-- "We ablated individual attention heads (80 combinations: last 10 layers × 8 heads) to identify critical circuits that differentiate reference and alternate sequences."
-
-**Attention Analysis:**
-- "We extracted attention weights from all 22 layers and 16 heads to visualize where the model focuses when processing reference vs alternate sequences."
 
